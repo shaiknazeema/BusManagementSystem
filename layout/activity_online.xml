@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Online"
+    android:background="@drawable/b5"
+    android:gravity="center">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/baseline_account_circle_24"
+    android:layout_gravity="center"
+    android:layout_marginTop="70dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter the Email"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/t1"
+        android:background="@drawable/corner"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="18dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#BF114C"/>
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:width="20dp"
+        android:height="100dp"
+        android:drawableLeft="@drawable/baseline_badge_24"
+        android:drawablePadding="16dp"
+        android:background="@drawable/corner"
+
+        android:hint="Enter the Password"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        app:passwordToggleEnabled="true"
+
+        android:textColor="@color/black"
+        android:textColorHint="#BF114C" />
+
+    <CheckBox
+        android:id="@+id/ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Agree the Privacy policy"
+        android:textColor="#BF114C"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/b3"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:background="#BF114C"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:id="@+id/b1"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:background="#BF114C"/>
+</LinearLayout>

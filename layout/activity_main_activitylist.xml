@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitylist">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Guntur Bus Stop"
+                    android:id="@+id/c1"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.4in"
+                    android:text="Srikakulam Bus Stop"
+                    android:textColor="@color/pink"
+                    android:textSize="23sp"
+                    android:id="@+id/c2"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Vizag Bus Stop"
+                    android:id="@+id/c3"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="EastGodavari BUs Stop"
+                    android:id="@+id/c4"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="WestGodavari Bus Stop"
+                    android:id="@+id/c5"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i6"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Krishna Bus Stop"
+                    android:id="@+id/c6"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i7"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Kurnool Bus Stop"
+                    android:id="@+id/c7"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i8"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Kadapa Bus Stop"
+                    android:id="@+id/c8"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i9"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Ananthapur Bus Stop"
+                    android:id="@+id/c9"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i10"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Prakasam Bus Stop"
+                    android:id="@+id/c10"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="2.5in"
+                android:layout_height="1in"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@drawable/n1"
+                    android:scaleType="fitStart"
+                    android:id="@+id/i11"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:textSize="23sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pink"
+                    android:text="Nellore Bus Sop"
+                    android:id="@+id/c11"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

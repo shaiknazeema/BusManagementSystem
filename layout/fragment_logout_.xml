@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Logout_Fragment">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="25dp"
+        android:src="@drawable/e2"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter the Email"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/t1"
+        android:background="@drawable/corner"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="18dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#BF114C"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter the password"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/t2"
+        android:background="@drawable/corner"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/baseline_badge_24"
+        android:drawablePadding="18dp"
+        android:inputType="textPassword"
+        android:maxLength="7"
+        android:textColorHint="#BF114C"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter the confirmPassword"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/t3"
+        android:background="@drawable/corner"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/baseline_badge_24"
+        android:drawablePadding="18dp"
+        android:inputType="textPassword"
+        android:textColorHint="#BF114C"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter the phoneNumber"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/t4"
+        android:background="@drawable/corner"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/baseline_123_24"
+        android:drawablePadding="18dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColorHint="#BF114C"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/b1"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:background="#BF114C"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment_Fragment"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/et_seats"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Number of Seats"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Amount"
+        android:inputType="numberDecimal"/>
+
+    <RadioGroup
+        android:id="@+id/rg_payment_methods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_google_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Pay"/>
+
+        <RadioButton
+            android:id="@+id/rb_phone_pe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PhonePe"/>
+
+        <RadioButton
+            android:id="@+id/rb_cod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash on Delivery"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed to Pay"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

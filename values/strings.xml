@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SafeBus</string>
+    <string name="open_nav">open Navigation Drawer</string>
+    <string name="close_nav">close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_label">From</string>
+    <string name="Item_label1">To</string>
+
+    <string name="error_amount">Please enter amount</string>
+    <string name="error_name">Please enter your name</string>
+    <string name="error_phone_number">Please enter your phone number</string>
+    <string name="error_seats">Please enter the number of seats</string>
+    <string name="select_payment_method">Please select a payment method</string>
+    <string name="cod_selected">Cash on Delivery Selected</string>
+    <string name="payment_failed" tools:ignore="DuplicateDefinition">Payment failed</string>
+    <string name="app_not_installed">Payment app not installed: %1$s</string>
+    <string name="payment_successful">Payment Successful</string>
+    <string name="cod_order_placed">COD Order placed for Rs. %1$s</string>
+    <string name="payment_note">Payment for %1$s (Seats: %2$s)</string>
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeaderFragment"
+    android:orientation="vertical">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/t11"
+        android:id="@+id/t1"
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/t2"
+        android:id="@+id/t2"
+        android:layout_row="0"
+        android:layout_column="1"
+       />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="@color/white"
+        android:text="NormalBus"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/b1"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginLeft="30dp"
+        android:background="@color/white1"
+
+        android:text="AC Bus"
+        android:id="@+id/b2"/>
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/t3"
+        android:id="@+id/t3"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="180dp"
+        android:src="@drawable/t4"
+        android:id="@+id/t4"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white1"
+        android:text="Non-AC"
+        android:id="@+id/b3"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginLeft="30dp"
+        android:background="@color/white1"
+
+        android:text="Super Dulex"
+        android:id="@+id/b4"/>
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/t55"
+        android:id="@+id/t5"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginTop="0dp"/>
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/t66"
+        android:id="@+id/t6"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginTop="0dp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:background="@color/white1"
+        android:text="Sleeper Non AC"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/b5"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_marginLeft="30dp"
+            android:background="@color/white1"
+            android:text="AC Bus"
+            android:id="@+id/b6"/>
+    </GridLayout>
+
+
+
+
+
+
+
+
+</ScrollView>
